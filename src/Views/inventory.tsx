@@ -30,6 +30,51 @@ const InventoryDashboard = () => {
       expiry_date: '2022-12-21',
       status: 'Out of Stock',
     },
+{
+      "product_id": 3,
+      "product_name": "Organic Whole Milk",
+      "price": 3.99,
+      "quantity": 50,
+      "threshold_value": 20,
+      "expiry_date": "2024-10-15",
+      "status": "In Stock"
+    },
+    {
+      "product_id": 4,
+      "product_name": "Multigrain Bread Loaf",
+      "price": 4.49,
+      "quantity": 35,
+      "threshold_value": 15,
+      "expiry_date": "2024-09-01",
+      "status": "In Stock"
+    },
+    {
+      "product_id": 5,
+      "product_name": "Free-Range Eggs (12pk)",
+      "price": 5.99,
+      "quantity": 22,
+      "threshold_value": 30,
+      "expiry_date": "2024-11-20",
+      "status": "Low Stock"
+    },
+    {
+      "product_id": 6,
+      "product_name": "Greek Yogurt (32oz)",
+      "price": 6.25,
+      "quantity": 12,
+      "threshold_value": 10,
+      "expiry_date": "2024-08-10",
+      "status": "In Stock"
+    },
+    {
+      "product_id": 7,
+      "product_name": "Granola Cereal Box",
+      "price": 7.50,
+      "quantity": 8,
+      "threshold_value": 15,
+      "expiry_date": "2025-01-05",
+      "status": "Low Stock"
+    }
   ]);
 
   const [showAddProductForm, setShowAddProductForm] = useState(false);
