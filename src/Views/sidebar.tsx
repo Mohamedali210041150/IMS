@@ -1,13 +1,12 @@
 import { FileText, Home, LogOut, Package, Settings, ShoppingCart, Store, Users } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "src/images/logo.png";
 
 export default function Sidebarcf()
 {
     return  (
         <aside className="w-64 bg-white p-4 shadow-sm">
         <div className="flex items-center gap-2 mb-8">
-        <img className="w-12 h-12" src={logo} alt="Logo" />
+        
           <span className="text-blue-500 font-bold text-xl">SUDAN</span>
         </div>
         <nav className="space-y-2">
